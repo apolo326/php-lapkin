@@ -33,17 +33,6 @@ if(!empty($_POST['login'])&&!empty($_POST['password'])){
     <link rel= "stylesheet" href="css/style.css">
 </head>
 <body>
-
-<header>
-     <h1>ООО Техносервис<h1>
-</header>
-<nav>
-    <a href = "">Главная</a>
-    <a href = ""> Подать заявку</a>
-    <a href = "">Выход</a>
-</nav>     
-     <main>
-     <h2>Авторизация<h2>
 <form method="POST">
     <label for = 'login'>Логин</label>
     <input type='text' name='login' id='login'>
