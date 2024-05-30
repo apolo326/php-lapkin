@@ -15,17 +15,7 @@ if(empty($_SESSION['auth'])){
 </head>
 <body>
 
-<header>
-     <h1>ООО Техносервис<h1>
-</header>
-<nav>
-    <a href = "">Главная</a>
-    <a href = ""> Подать заявку</a>
-    <a href ="peoblems_all.php">Все заявки</a>
-    <a href = "logout.php">Выход</a>
-</nav>
-<main>
-<h2>Подать заявку</h2>
+
 <form class="form1" action="" method="POST">
 <table>
     <tr>
